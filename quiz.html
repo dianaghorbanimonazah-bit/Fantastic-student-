@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>آزمون تمرینی ریاضی</title><link rel="stylesheet" href="style.css"></head>
+<body onload="initQuiz()">
+<header class="topbar"><div class="container topbar-inner"><a class="brand" href="HOME.html"><span class="brand-mark">🌱</span> دانش‌آموز فوق‌العاده</a><nav class="nav"><a href="HOME.html">خانه</a><a href="azmon.html">همه‌ی آزمون‌ها</a></nav></div></header>
+<main class="container"><section class="page-head"><span class="eyebrow">➗ آزمون نمونه</span><h1>آزمون تمرینی ریاضی</h1><p>با آرامش پاسخ بده؛ هدف، یادگرفتن است.</p></section>
+<section id="quizArea" class="card" style="max-width:760px;margin:0 auto"><div class="progress-track"><div id="quizProgress" class="progress-fill"></div></div><h2 id="questionText" style="margin-top:22px">در حال آماده‌سازی…</h2><div id="options"></div><p id="quizFeedback" class="small" aria-live="polite"></p><div class="row" style="justify-content:space-between;margin-top:20px"><a class="btn btn-light" href="azmon.html">خروج از آزمون</a><button id="nextQuestion" class="btn btn-primary" onclick="nextQuestion()" disabled>سؤال بعدی ←</button></div></section>
+<section id="quizResult" class="card center hidden" style="max-width:650px;margin:0 auto"><div class="hero-emoji" style="font-size:4rem">🏆</div><h2>آزمون تموم شد!</h2><h1 id="scoreText">۰ از ۵</h1><p id="scoreMessage"></p><div class="hero-actions" style="justify-content:center"><button class="btn btn-primary" onclick="location.reload()">دوباره تلاش کن</button><a class="btn btn-light" href="HOME.html">بازگشت به خانه</a></div></section>
+</main><footer>هر اشتباه، فرصتی برای یادگیری است 🌱</footer><script src="app.js"></script></body></html>

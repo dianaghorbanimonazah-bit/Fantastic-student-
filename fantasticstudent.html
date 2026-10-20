@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>دانش‌آموز فوق‌العاده</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar"><div class="container topbar-inner"><a class="brand" href="fantasticstudent.html"><span class="brand-mark">🌱</span> دانش‌آموز فوق‌العاده</a><nav class="nav"><a href="index.html">ورود</a><a class="active" href="fantasticstudent.html">ثبت‌نام</a></nav></div></header>
+<main class="container">
+<section class="hero-grid hero">
+  <div class="hero-copy"><span class="eyebrow">✨ یاد بگیر، رشد کن، بدرخش</span><h1>هر روز، یک قدم به نسخه‌ی بهتر خودت نزدیک‌تر شو!</h1><p class="lead">یک فضای آموزشی برای برنامه‌ریزی، تمرین، آزمون و پیگیری مسیر یادگیری دانش‌آموزها.</p><div class="hero-actions"><a class="btn btn-primary" href="#register">ساخت حساب کاربری</a><a class="btn btn-light" href="index.html">قبلاً حساب ساخته‌ام</a></div></div>
+  <div class="hero-art"><span class="floating-note note-one">📚 وقت یادگیری!</span><div class="hero-emoji">🌻</div><span class="floating-note note-two">⭐ قدم‌به‌قدم</span></div>
+</section>
+<section class="section"><div class="section-head"><div><h2>اینجا چه کارهایی می‌تونی بکنی؟</h2><p>ابزارهای ساده برای منظم‌تر درس‌خواندن</p></div></div>
+<div class="grid">
+<article class="card"><div class="card-icon yellow">📝</div><h3>مدیریت تکالیف</h3><p>تکالیف را ثبت کن و انجام‌شدنشان را پیگیری کن.</p></article>
+<article class="card"><div class="card-icon">🧠</div><h3>آزمون تمرینی</h3><p>به سؤال‌های نمونه پاسخ بده و نتیجه‌ات را ببین.</p></article>
+<article class="card"><div class="card-icon yellow">⭐</div><h3>امتیاز تلاش</h3><p>با انجام تکالیف و تمرین آزمون امتیاز جمع کن.</p></article>
+</div></section>
+<section id="register" class="card form-card"><div class="center"><span class="eyebrow">شروع مسیر تو</span><h2>ساخت حساب کاربری</h2><p class="small">نام کاربری و رمز را به خاطر بسپار.</p></div>
+<form onsubmit="registerUser(event)">
+<div class="field"><label for="registerName">نام نمایشی</label><input id="registerName" required minlength="2" maxlength="40" placeholder="مثلاً ستین"></div>
+<div class="field"><label for="registerUsername">نام کاربری</label><input id="registerUsername" required minlength="3" maxlength="24" autocomplete="username" placeholder="حداقل ۳ کاراکتر"></div>
+<div class="field"><label for="registerPassword">رمز عبور</label><input id="registerPassword" type="password" required minlength="4" autocomplete="new-password" placeholder="حداقل ۴ کاراکتر"></div>
+<div id="formMessage" aria-live="polite"></div><button class="btn btn-primary" type="submit" style="width:100%">ثبت‌نام و شروع 🚀</button>
+</form></section></main>
+<footer>دانش‌آموز فوق‌العاده · Learn a little every day 🌱</footer><script src="app.js"></script></body></html>
